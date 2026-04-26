@@ -1,0 +1,24 @@
+# robot-kinematics-visualizer
+
+> Robot FK/IK Visualizer — interactive serial manipulator kinematics with DH parameters, Jacobian, and singularity analysis.
+
+## Stack
+
+- TypeScript, Next.js (App Router), React, Tailwind CSS
+- Shared design system from `@ecdaerol/calculator-ui` and `tool-template`
+
+## Architecture
+
+
+## Key files
+
+- `README.md`: human-readable overview, formulas, references
+- `package.json`: scripts (`dev`, `build`, `test`, `lint`)
+- `src/lib/`: start here for engineering logic and validation
+- `src/app/page.tsx`: main UI entry point
+
+## How to navigate
+
+- For *math* questions → read `src/lib/`
+- For *UI* questions → read `src/app/` and `src/components/`
+- For *standards/references* (ISO, DIN, VDI, Eurocode) → check `README.md` references section
